@@ -1,6 +1,6 @@
 {
     "name": "cm/flow-mailgun",
-    "type": "typo3-flow-plugin",
+    "type": "neos-plugin",
     "description": "Add description here",
     "license": "MIT",
     "require": {
