@@ -1,0 +1,18 @@
+{
+    "name": "cm/flow-mailgun",
+    "type": "typo3-flow-plugin",
+    "description": "Add description here",
+    "license": "MIT",
+    "require": {
+        "typo3/flow": "3.*",
+        "axovis/flow-utilities": "~1.1.0",
+        "mailgun/mailgun-php": "~2.1.0",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CM\\Flow\\Mailgun\\": "Classes"
+        }
+    }
+}

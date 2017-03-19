@@ -1,0 +1,6 @@
+CM:
+  Flow:
+    Mailgun:
+      auth:
+        mailgun-key: ''
+        domain: ''
