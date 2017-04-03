@@ -1,17 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: kapale
- * Date: 24.03.16
- * Time: 18:02
- */
 
 namespace CM\Flow\Mailgun\Services;
 
-use Axovis\Flow\Utilities\Email\EmailBackendInterface;
+use CM\Flow\Utilities\Email\EmailBackendInterface;
 use Mailgun\Mailgun;
-use TYPO3\Flow\Annotations as Flow;
-use TYPO3\Flow\Exception;
+use Neos\Flow\Annotations as Flow;
+use Neos\Flow\Exception;
 
 /**
  * @Flow\Scope("singleton")

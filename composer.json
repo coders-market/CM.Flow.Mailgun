@@ -4,8 +4,8 @@
     "description": "Add description here",
     "license": "MIT",
     "require": {
-        "neos/flow": "3.*",
-        "axovis/flow-utilities": "~1.1.0",
+        "neos/flow": "~4.0",
+        "cm/flow-utilities": "~1.0.0",
         "mailgun/mailgun-php": "~2.1.0",
         "php-http/curl-client": "^1.7",
         "guzzlehttp/psr7": "^1.4"
