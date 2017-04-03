@@ -5,14 +5,13 @@ namespace CM\Flow\Mailgun\Services;
 use CM\Flow\Utilities\Email\EmailBackendInterface;
 use Mailgun\Mailgun;
 use Neos\Flow\Annotations as Flow;
-use Neos\Flow\Exception;
 
 /**
  * @Flow\Scope("singleton")
  */
 class MailgunBackend implements EmailBackendInterface {
     /**
-     * @Flow\Inject(setting="auth", package="CM.Flow.Mailgun")
+     * @Flow\InjectConfiguration(path="auth", package="CM.Flow.Mailgun")
      * @var array
      */
     protected $configuration;

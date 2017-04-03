@@ -1,6 +1,6 @@
 # CM.Flow.Mailgun
 
-This package allows you to send E-Mails using the `EmailService` (contained in the package `Axovis.Flow.Utilities`), via mailgun instead of the local mail server.
+This package allows you to send E-Mails using the `EmailService` (contained in the package `CM.Flow.Utilities`), via mailgun instead of the local mail server.
 
 ## Configuration
 
@@ -22,7 +22,7 @@ CM:
 On top of that, a global `Objects.yaml` is required, containing the following lines. This will tell flow to send mails using the `MailgunBackend`.
 
 ```
-Axovis\Flow\Utilities\Email\EmailBackendInterface:
+CM\Flow\Utilities\Email\EmailBackendInterface:
   className: CM\Flow\Mailgun\Services\MailgunBackend
   scope: singleton
 ```
